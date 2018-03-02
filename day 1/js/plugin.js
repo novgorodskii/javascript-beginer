@@ -59,8 +59,82 @@
 
 // Взаимодействие с пользователем: alert, prompt, confir
 
-var userName = prompt('User Name', 'Name');
+// var userName = prompt('User Name', 'Name');
 
-alert(userName);
+// alert(userName);
 
 
+// Условные операторы
+
+// let year;
+
+// if( year != 2011 ){
+//   alert('А вот и неправильно!')
+// }
+
+// year = prompt("yers ES6 ?", '');
+// year != 2011 ? alert('А вот и неправильно!') : alert("правильно"); 
+
+// var nameJavaScript = prompt( "Каково 'официальое' название JavaScript", "");
+
+// if( nameJavaScript == 'EcmaScript' ) {
+//   alert("Верно");
+// } else {
+//   alert("Не знаете? EcmaScript");
+// }
+
+// var value = prompt("Какое значение?", "");
+// var message;
+
+// if( value > 0){
+//   message = 1;
+// } else if(value < 0){
+//   message = -1;
+// } else {
+//   message = 0;
+// }
+// alert(message);
+
+// var userName = prompt("Кто пришел?", "");
+// var password = prompt("Пароль", "");
+
+// if( userName == "Админ") {
+//   if( password == "Черный Властелин" ) {
+//     alert("Welcome!");
+//   } else if(password === null) {
+//     alert("Вход отменен");
+//   } else {
+//     alert("fail password!")
+//   }
+// } else if ( userName === null ) {
+//   alert("Вход отменен");
+// } else {
+//   alert("Я вас не знаю");
+// }
+
+// userName != "Админ" ? 
+
+// if (a + b < 4) {
+//   result = 'Мало';
+// } else {
+//   result = 'Много';
+// }
+
+// result = a + b < 4 ? result = "Мало" : result = "Много";
+
+// var message;
+
+// if (login == 'Вася') {
+//   message = 'Привет';
+// } else if (login == 'Директор') {
+//   message = 'Здравствуйте';
+// } else if (login == '') {
+//   message = 'Нет логина';
+// } else {
+//   message = '';
+// }
+
+// message = login == ("Вася") ? message = "Привет" :
+//  login == "Директор" ? message = "Здравствуйте":
+//  login == '' ? message = "Нет логина":
+//  message = '';
